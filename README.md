@@ -1,2 +1,2 @@
 # Zuhause-Inventar
-Demonstration project for FroxQualification - Clean Code series
+Demonstration Project for FrogCademy - Clean Code Series
