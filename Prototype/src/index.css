@@ -1,0 +1,27 @@
+:root {
+    --background: rgba(64, 72, 128, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    font-size: 1.4vh;
+}
+
+application {
+    display: block;
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+}
+
+page-content {
+    padding-top: 0.3vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: block;
+    height: 97vh
+}

@@ -1,25 +1,4 @@
 
-:root {
-    --background: rgba(64, 72, 128, 1);
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    overflow: hidden;
-    font-size: 1.4vh;
-}
-
-application {
-    display: block;
-    background-color: var(--background);
-    width: 100vw;
-    height: 100vh;
-}
-
 top-bar {
     display: block;
     height: 3vh;
@@ -77,29 +56,4 @@ menu-item {
     background: rgba(255, 255, 255, 0.8);
     padding-top: 1vh;
     padding-left: 0.5vw;
-}
-
-page-content {
-    padding-top: 0.3vh;
-    background-color: rgba(255, 255, 255, 0.6);
-    display: block;
-    height: 97vh
-}
-
-room-list {
-    display: block;
-    margin: 2vh;
-    height: 92vh;
-    border: 0.15vh solid black;
-    overflow-y: auto;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-room-list > item {
-    display: block;
-    height: 3vh;
-    font-size: 2vh;
-    background-color: rgba(240, 240, 240, 1);
-    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.2);
-    padding: 1vh;
 }
