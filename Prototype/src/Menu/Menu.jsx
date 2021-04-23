@@ -27,10 +27,14 @@ export default class Menu extends Component {
                     </menu>
                 </top-bar>
                 <menu is="application--menu" class={this.state.open ? 'open' : ''}>
-                    {model.menuList.map((menuItem) => <menu-item>{menuItem.i18N.title}</menu-item>)}
+                    {model.menuList.map(this.renderItem.bind(this))}
                 </menu>
             </StrictMode>
         );
+    }
+
+    renderItem(menuItem, i) {
+        return <menu-item key={'Menu-Item-' + i}>{menuItem.i18N.title}</menu-item>;
     }
 
     onMenu() {
